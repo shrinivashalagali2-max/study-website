@@ -1,69 +1,70 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Study Hub</title>
-<h2>📚 Study Notes</h2>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hub</title>
 
-<p>💻 Computer Science – C Programming</p>
-<p>📐 Mathematics – Number System</p>
-<p>📖 English – Grammar</p>
-<p>📝 Kannada – ಪಾಠಗಳ ಅರ್ಥ</p>
-    <style>
-        body {
-            background-color: lightblue;
-            text-align: center;
-            font-family: Arial;
-            padding: 30px;
-        }
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
 
-        h1 {
-            color: darkblue;
-        }
+    h1 {
+      color: darkblue;
+    }
 
-        .box {
-            background-color: white;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 15px;
-        }
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      border-radius: 10px;
+      max-width: 600px;
+    }
 
-        button {
-            background-color: darkblue;
-            color: white;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-        }
-    </style>
+    button {
+      background-color: darkblue;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 
 <body>
 
-    <h1>📚 Study Hub</h1>
+  <h1>📚 Study Hub</h1>
+  <p>Learn • Practice • Improve</p>
 
-    <p>Learn • Practice • Improve</p>
+  <div class="box">
+    <h2>Subjects</h2>
+    <p>💻 Computer Science</p>
+    <p>📐 Mathematics</p>
+    <p>📖 English</p>
+    <p>📝 Kannada</p>
+  </div>
 
-    <div class="box">
-        <h2>Subjects</h2>
-        <p>💻 Computer Science</p>
-        <p>📐 Mathematics</p>
-        <p>📖 English</p>
-        <p>📝 Kannada</p>
-    </div>
+  <div class="box">
+    <h2>About</h2>
+    <p>ಇದು ವಿದ್ಯಾರ್ಥಿಗಳಿಗಾಗಿ ಒಂದು simple study website.</p>
+  </div>
 
-    <div class="box">
-        <h2>About</h2>
-        <p>ಇದು ವಿದ್ಯಾರ್ಥಿಗಳಿಗಾಗಿ ಒಂದು simple study website.</p>
-    </div>
+  <button onclick="showMessage()">Start Learning</button>
 
-    <button onclick="showMessage()">Start Learning</button>
-
-    <script>
-        function showMessage() {
-            alert("Welcome to Study Hub! 📚");
-        }
-    </script>
+  <script>
+    function showMessage() {
+      alert("Welcome to Study Hub! 📚");
+    }
+  </script>
 
 </body>
 </html>
+        
+        
+
